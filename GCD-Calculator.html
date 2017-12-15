@@ -21,8 +21,7 @@ Made on 30 October 2017, 8:25 PM
 		console.log(NumOne);
 		if(isNaN(NumOne)===true || isNaN(NumTwo)===true || NumOne<0 || NumTwo<0) {
 			console.log("You made a mistake while typing input.");
-			document.getElementById('result').innerHTML= "Try Again";
-			return;
+			return "Try Again";
 		}
 
 			if(BigCheck===true)  {
@@ -70,7 +69,7 @@ Made on 30 October 2017, 8:25 PM
 						window.alert("BigCheck is true. That's weird!? Please report this to LightninTh5426.");
 					}
 			}
-			document.getElementById('result').innerHTML= "GCD(" + NumOne + ", " + NumTwo+ ") = "+CalcNumTwo;
+			return "GCD(" + NumOne + ", " + NumTwo+ ") = "+CalcNumTwo;
 
 };
 	</script>
@@ -95,6 +94,7 @@ Made on 30 October 2017, 8:25 PM
 	var Box1=document.getElementById("Num1");
 	var Box2=document.getElementById("Num2");
 	submit.onclick= function() {
-		gcd(parseInt(Box1.value), parseInt(Box2.value));
+		
+			document.getElementById('result').innerHTML=gcd(parseInt(Box1.value), parseInt(Box2.value));
 	}
 </script>
