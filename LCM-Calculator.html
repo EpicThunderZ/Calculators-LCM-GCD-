@@ -22,8 +22,8 @@ Made on 30 October 2017, 8:25 PM
 		console.log(NumOne);
 		if(isNaN(NumOne)===true || isNaN(NumTwo)===true || NumOne<0 || NumTwo<0) {
 			console.log("You made a mistake while typing input.");
-			document.getElementById('result').innerHTML= "Try Again";
-			return;
+			return "Try Again";
+			
 		}
 
 
@@ -35,9 +35,9 @@ Made on 30 October 2017, 8:25 PM
 				MiniNum=NumOne;
 			} else{
 				console.log("Error. That's weird! Please tell LightninTh5426 about this.");
-				document.getElementById('result').innerHTML= "Error. <br>That's weird! Please tell LightninTh5426 about this.";
+				return "Error. <br>That's weird! Please tell LightninTh5426 about this.";
 
-				return;
+				
 			}
 
 				CalcNumOne=(BigNum-((parseInt(BigNum/MiniNum))*MiniNum));
@@ -64,9 +64,10 @@ Made on 30 October 2017, 8:25 PM
 						console.log(CalcNumTwo);
 						console.log(CalcNumOne===NaN);
 						if(CalcNumOne===NaN) {
-							document.getElementById('result').innerHTML= "Try Again";
+							return "Try Again";
+							
 							break;
-							return;
+							
 						}
 
 						results.push("GCD("+CalcNumOne+", "+CalcNumTwo+")");
@@ -76,7 +77,7 @@ Made on 30 October 2017, 8:25 PM
 						console.log("BigCheck is true. That's weird!? Please report this to LightninTh5426.");
 					}
 			}
-      lcmResult= (NumOne*NumTwo)/CalcNumTwo;
+      			lcmResult= (NumOne*NumTwo)/CalcNumTwo;
 			document.getElementById('result').innerHTML= "LCM(" + NumOne + ", " + NumTwo+ ") = "+lcmResult;
 
 };
@@ -102,6 +103,6 @@ Made on 30 October 2017, 8:25 PM
 	var Box1=document.getElementById("Num1");
 	var Box2=document.getElementById("Num2");
 	submit.onclick= function() {
-		lcm(parseInt(Box1.value), parseInt(Box2.value));
+		document.getElementById('result').innerHTML=lcm(parseInt(Box1.value), parseInt(Box2.value));
 	}
 </script>
