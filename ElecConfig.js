@@ -1,17 +1,17 @@
 var formula = ['S', 'S', 'P', 'S', 'P', 'S', 'D', 'P', 'S', 'D', 'P', 'S', 'F', 'D', 'P', 'S', 'F', 'D', 'P', 'S'];
 		var partnum = ['1', '2', '2', '3', '3', '4', '3', '4', '5', '4', '5', '6', '4', '5', '6', '7', '5', '6', '7', '8'];
-		var protons;
+		var protons=1; //you can change this number according to the element's atomic number
 		var result;
 		var lastletter;
 		var parsedlastletter;
 		var simplelastletter;
 		var configurate = function() {
-      var protons;
+      			protons;
 			result="";
 			i=0;
 			parti=0;
 			differ=0;
-			protons=document.getElementById("atomic_number").value;
+			//protons=document.getElementById("atomic_number").value;
 			//console.log(protons);
 			var i=0;
 			var parti=0;
