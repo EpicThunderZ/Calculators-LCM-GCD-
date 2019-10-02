@@ -9,6 +9,5 @@ Use this to directly import the file:
 <script
    type="text/javascript"
    src="https://combinatronics.com/EpicThunderZ/minor-algorithms/master/<file_name>.js"
-   
 ></script>
 ```
