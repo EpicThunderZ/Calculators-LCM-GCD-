@@ -8,6 +8,7 @@ Use this to directly import the file:
 ```javascript
 <script
    type="text/javascript"
-   src="https://combinatronics.com/EpicThunderZ/minor_algorithms/master/src/<file_name>.js"
+   src="https://combinatronics.com/EpicThunderZ/minor-algorithms/master/<file_name>.js"
+   
 ></script>
 ```
