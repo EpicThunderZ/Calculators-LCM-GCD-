@@ -1,11 +1,7 @@
-var formula = ['S', 'S', 'P', 'S', 'P', 'S', 'D', 'P', 'S', 'D', 'P', 'S', 'F', 'D', 'P', 'S', 'F', 'D', 'P', 'S'];
-var partnum = ['1', '2', '2', '3', '3', '4', '3', '4', '5', '4', '5', '6', '4', '5', '6', '7', '5', '6', '7', '8'];
-var result;
-var lastletter;
-var parsedlastletter;
-var simplelastletter;
 //Enter atomic number in protons parameter:
-var configurate = function(protons) {
+var configurate = function(protons, STOP_INPUT, formula, partnum, result, lastletter, parsedlastletter, simplelastletter) {
+	formula = ['S', 'S', 'P', 'S', 'P', 'S', 'D', 'P', 'S', 'D', 'P', 'S', 'F', 'D', 'P', 'S', 'F', 'D', 'P', 'S'];
+	partnum = ['1', '2', '2', '3', '3', '4', '3', '4', '5', '4', '5', '6', '4', '5', '6', '7', '5', '6', '7', '8'];
 	result="";
 	i=0;
 	parti=0;
