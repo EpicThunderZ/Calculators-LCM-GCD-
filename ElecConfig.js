@@ -1,12 +1,10 @@
-//Enter atomic number in protons parameter:
-var configurate = function(protons, STOP_INPUT, formula, partnum, result, lastletter, parsedlastletter, simplelastletter) {
-	formula = ['S', 'S', 'P', 'S', 'P', 'S', 'D', 'P', 'S', 'D', 'P', 'S', 'F', 'D', 'P', 'S', 'F', 'D', 'P', 'S'];
-	partnum = ['1', '2', '2', '3', '3', '4', '3', '4', '5', '4', '5', '6', '4', '5', '6', '7', '5', '6', '7', '8'];
+var configurate = function(protons, STOP_input, formula, partnum, result, parsedlastletter, simplelastletter) {
 	result="";
-	i=0;
-	parti=0;
-	differ=0;
-	//protons=document.getElementById("atomic_number").value;
+	if(protons>118 || protons<0) {
+		alert("Invalid Input. Please Enter a number between 1 and 118 (INCLUSIVE)");
+	}
+	formula = ['S', 'S', 'P', 'S', 'P',	 'S', 'D', 'P', 'S', 'D', 'P', 'S', 'F', 'D', 'P', 'S', 'F', 'D', 'P', 'S'];
+	partnum = ['1', '2', '2', '3', '3', '4', '3', '4', '5', '4', '5', '6', '4', '5', '6', '7', '5', '6', '7', '8'];
 	//console.log(protons);
 	var i=0;
 	var parti=0;
@@ -65,6 +63,5 @@ var configurate = function(protons, STOP_INPUT, formula, partnum, result, lastle
 		result=result+differ;
 	}
 	//console.log(result);
-	//document.getElementById("result").innerHTML=result;
 	return result;
 }
