@@ -1,10 +1,16 @@
 # minicodes
-* **Greatest Common Divisor Calculator** *(GCD.js)*
-* **Lowest Common Multiple Calculator** *(LCM.js)*
-* **Electronic Configurator**-  *Gives the electronic configuration of any element. ***(Warning: Does not handle exceptions)***
+* **GCD.js** - Calculates greatest common divisor
+* **LCM.js** - Calculates lowest common multiple
+* **ElecConfig.js** - Calculates electronic configuration of a given element(does not handle exceptions)
+* **prime_finder.py** - Finds all prime numbers less than a given number n
+* **prime_checker.py** - Checks if a given number is prime
+* **prime_factorizer.py** - Calculates prime factorization of element
+
 
 ## Directly Importing Files:
-Use this to directly import the file:
+Use this to directly import the file: 
+`https://combinatronics.com/EpicThunderZ/minicodes/master/<file_name>.<extension>`
+For example, when importing a .js file:
 ```javascript
 <script
    type="text/javascript"
