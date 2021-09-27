@@ -4,7 +4,7 @@
 * **ElecConfig.js** - Calculates electronic configuration of a given element(does not handle exceptions)
 * **prime_finder.py** - Finds all prime numbers less than a given number n
 * **prime_checker.py** - Checks if a given number is prime
-* **prime_factorizer.py** - Calculates prime factorization of element
+* **prime_factorizer.py** - Calculates prime factorization of a given number n
 
 
 ## Directly Importing Files:
