@@ -9,7 +9,7 @@
 
 ## Directly Importing Files:
 Use this to directly import the file: 
-`https://combinatronics.com/EpicThunderZ/minicodes/master/<file_name>.<extension>`
+`https://combinatronics.com/codegallivant/minicodes/master/<file_name>.<extension>`
 For example, when importing a .js file:
 ```javascript
 <script
