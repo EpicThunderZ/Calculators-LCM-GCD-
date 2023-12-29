@@ -10,11 +10,11 @@
 
 ## Directly importing javascript files:
 Use this to directly import the file: 
-`https://combinatronics.com/EpicThunderZ/minicodes/master/<file_name>.<extension>`
+`https://combinatronics.com/codegallivant/minicodes/master/<file_name>.<extension>`
 For example, when importing a .js file:
 ```javascript
 <script
    type="text/javascript"
-   src="https://combinatronics.com/EpicThunderZ/minicodes/master/<file_name>.js"
+   src="https://combinatronics.com/codegallivant/minicodes/master/<file_name>.js"
 ></script>
 ```
