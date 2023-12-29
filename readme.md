@@ -5,9 +5,10 @@
 * **prime_finder.py** - Finds all prime numbers less than a given number n
 * **prime_checker.py** - Checks if a given number is prime
 * **prime_factorizer.py** - Calculates prime factorization of a given number n
+* **gauss_elimination.py** - Finds solution of equations using gauss elimination method
+* **gauss_jordan.py** - Finds solution of equations using gauss jordan method
 
-
-## Directly Importing Files:
+## Directly importing javascript files:
 Use this to directly import the file: 
 `https://combinatronics.com/EpicThunderZ/minicodes/master/<file_name>.<extension>`
 For example, when importing a .js file:
